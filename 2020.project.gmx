@@ -12,11 +12,13 @@
     </sprites>
     <sprites name="Interface">
       <sprite>sprites\spr_GameLogo</sprite>
+      <sprite>sprites\spr_version</sprite>
       <sprite>sprites\spr_PlayButton</sprite>
       <sprite>sprites\spr_Character</sprite>
       <sprite>sprites\spr_ok</sprite>
       <sprite>sprites\spr_cancel</sprite>
       <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_credits</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -41,6 +43,12 @@
     <objects name="interface Buttons">
       <object>objects\obj_GameLogo</object>
       <object>objects\btn_play</object>
+      <object>objects\btn_character</object>
+      <object>objects\btn_ok</object>
+      <object>objects\btn_cancel</object>
+      <object>objects\btn_back</object>
+      <object>objects\btn_credits</object>
+      <object>objects\label_version</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -50,6 +58,7 @@
     <rooms name="levels">
       <room>rooms\lvEnero</room>
     </rooms>
+    <room>rooms\creditScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
