@@ -10,6 +10,14 @@
     <sprites name="levels">
       <sprite>sprites\spr_Levels</sprite>
     </sprites>
+    <sprites name="Interface">
+      <sprite>sprites\spr_GameLogo</sprite>
+      <sprite>sprites\spr_PlayButton</sprite>
+      <sprite>sprites\spr_Character</sprite>
+      <sprite>sprites\spr_ok</sprite>
+      <sprite>sprites\spr_cancel</sprite>
+      <sprite>sprites\spr_back</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

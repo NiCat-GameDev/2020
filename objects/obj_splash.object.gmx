@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.2;
+            <string>///Animation
+image_speed = 0.2;
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(menuScreen);
+            <string>///Go to Menu script
+room_goto(menuScreen);
 </string>
           </argument>
         </arguments>
