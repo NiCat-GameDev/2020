@@ -15,10 +15,15 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_splash</object>
+    <object>objects\control</object>
+    <object>objects\obj_Ene</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\splashScreen</room>
     <room>rooms\menuScreen</room>
+    <rooms name="levels">
+      <room>rooms\lvEnero</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
