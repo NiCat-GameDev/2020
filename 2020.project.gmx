@@ -38,6 +38,10 @@
       <object>objects\obj_Nov</object>
       <object>objects\obj_Dic</object>
     </objects>
+    <objects name="interface Buttons">
+      <object>objects\obj_GameLogo</object>
+      <object>objects\btn_play</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\splashScreen</room>
