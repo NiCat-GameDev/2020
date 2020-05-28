@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Unlock process
 image_speed = 0;
-image_index = 0;
+image_index = 4;
 </string>
           </argument>
         </arguments>

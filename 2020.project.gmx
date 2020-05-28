@@ -16,11 +16,25 @@
   <objects name="objects">
     <object>objects\obj_splash</object>
     <object>objects\control</object>
-    <object>objects\obj_Ene</object>
+    <objects name="levelButtons">
+      <object>objects\obj_Ene</object>
+      <object>objects\obj_Feb</object>
+      <object>objects\obj_Mar</object>
+      <object>objects\obj_Abr</object>
+      <object>objects\obj_May</object>
+      <object>objects\obj_Jun</object>
+      <object>objects\obj_Jul</object>
+      <object>objects\obj_Ago</object>
+      <object>objects\obj_Sep</object>
+      <object>objects\obj_Oct</object>
+      <object>objects\obj_Nov</object>
+      <object>objects\obj_Dic</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\splashScreen</room>
     <room>rooms\menuScreen</room>
+    <room>rooms\levelScreen</room>
     <rooms name="levels">
       <room>rooms\lvEnero</room>
     </rooms>

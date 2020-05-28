@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Unlock process
 image_speed = 0;
-image_index = 0;
+image_index = 10;
 </string>
           </argument>
         </arguments>
@@ -51,7 +51,7 @@ image_index = 0;
           <argument>
             <kind>1</kind>
             <string>///Moving to Screen
-room_goto(lvEnero);
+show_message("Aún este nivel no está disponible");
 </string>
           </argument>
         </arguments>
