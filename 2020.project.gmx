@@ -34,10 +34,14 @@
       <sprite>sprites\spr_block</sprite>
       <sprite>sprites\spr_pointer</sprite>
       <sprite>sprites\spr_tree</sprite>
+      <sprites name="flowers">
+        <sprite>sprites\spr_flowers</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_Credits</background>
+    <background>background\bck_ground</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -86,6 +90,7 @@
       <object>objects\gui_lifePoints</object>
       <object>objects\obj_pointer</object>
       <object>objects\obj_tree</object>
+      <object>objects\obj_flower</object>
     </objects>
   </objects>
   <rooms name="rooms">
