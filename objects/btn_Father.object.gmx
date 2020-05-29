@@ -51,7 +51,9 @@ image_yscale = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Make Small
+            <string>///Make Small and play sound
+
+audio_play_sound(snd_click, 10, false);
 
 image_xscale = 0.9;
 image_yscale = 0.9;

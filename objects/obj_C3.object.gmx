@@ -51,6 +51,7 @@ image_speed = 0;
           <argument>
             <kind>1</kind>
             <string>///Character selection
+audio_play_sound(snd_select, 10, false);
 show_message("character set successfully :3");
 control.character = 2;
 room_goto(menuScreen);

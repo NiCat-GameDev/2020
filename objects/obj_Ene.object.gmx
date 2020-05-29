@@ -51,6 +51,7 @@ image_index = 0;
           <argument>
             <kind>1</kind>
             <string>///Moving to Screen
+audio_play_sound(snd_select, 10, false);
 room_goto(lvEnero);
 </string>
           </argument>

@@ -51,6 +51,7 @@ image_index = 5;
           <argument>
             <kind>1</kind>
             <string>///Moving to Screen
+audio_play_sound(snd_select, 10, false);
 show_message("Aún este nivel no está disponible");
 </string>
           </argument>

@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///room change control
+            <string>///room change control and play sound
 
-
+audio_play_sound(snd_select, 10, false);
 room_goto(levelScreen);
 </string>
           </argument>

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///room change control
 
-
+audio_play_sound(snd_select, 10, false);
 room_goto(creditScreen);
 </string>
           </argument>
