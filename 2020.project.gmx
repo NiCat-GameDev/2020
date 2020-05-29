@@ -23,6 +23,7 @@
         <sprite>sprites\spr_logo</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_characters</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_Credits</background>
@@ -56,16 +57,23 @@
       <object>objects\btn_credits</object>
       <object>objects\label_version</object>
       <object>objects\obj_NiCatLogo</object>
+      <objects name="Characters Select">
+        <object>objects\btn_C1</object>
+        <object>objects\obj_C2</object>
+        <object>objects\obj_C3</object>
+        <object>objects\obj_C4</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\splashScreen</room>
     <room>rooms\menuScreen</room>
+    <room>rooms\characterScreen</room>
     <room>rooms\levelScreen</room>
+    <room>rooms\creditScreen</room>
     <rooms name="levels">
       <room>rooms\lvEnero</room>
     </rooms>
-    <room>rooms\creditScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -28,7 +28,7 @@
             <string>///room change control
 
 
-room_goto(lvEnero);
+room_goto(characterScreen);
 </string>
           </argument>
         </arguments>
