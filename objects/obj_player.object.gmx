@@ -105,6 +105,13 @@ if keyboard_check(vk_left){
     image_xscale = -1;
     }
 
+if keyboard_check(vk_up){
+    obj_player.y -= 8;
+    }
+    
+if keyboard_check(vk_down){
+    obj_player.y += 8;
+    }
 </string>
           </argument>
         </arguments>
