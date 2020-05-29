@@ -52,6 +52,10 @@
   </views>
   <instances>
     <instance objName="obj_player" x="352" y="512" name="inst_36964795" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_covid" x="256" y="160" name="inst_3BB21AD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="0" y="0" name="inst_9E6E3874" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="gui_lifePoints" x="34" y="26" name="inst_B344CE97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pointer" x="416" y="512" name="inst_7F43FAD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

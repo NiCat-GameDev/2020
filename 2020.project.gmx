@@ -30,6 +30,10 @@
     <sprites name="players">
       <sprite>sprites\spr_players</sprite>
     </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\spr_block</sprite>
+      <sprite>sprites\spr_pointer</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_Credits</background>
@@ -69,12 +73,17 @@
         <object>objects\obj_C3</object>
         <object>objects\obj_C4</object>
       </objects>
+      <object>objects\obj_block</object>
     </objects>
     <objects name="enemy">
       <object>objects\obj_covid</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player</object>
+    </objects>
+    <objects name="GUI">
+      <object>objects\gui_lifePoints</object>
+      <object>objects\obj_pointer</object>
     </objects>
   </objects>
   <rooms name="rooms">
