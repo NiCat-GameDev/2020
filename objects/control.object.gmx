@@ -32,6 +32,8 @@ month = 5; //This variable controls the month. (Now on May)
 
 character = 0; //for the character selection
 
+time = 300; //This for the timer to win
+
 //items and bullets
 
 sanitizer    = 0; //sanitizer its 10 bullets
@@ -267,6 +269,8 @@ posY = 0;
 
 //Code to create instances
 if (room == lvEnero){
+        //Setting the time to win
+        control.time = 300;
         
         //initializing alarms
         alarm_set(0, 90); //For covid

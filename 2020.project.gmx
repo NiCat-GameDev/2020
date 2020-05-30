@@ -11,6 +11,7 @@
       <sound>sound\snd_spray</sound>
       <sound>sound\snd_grab</sound>
       <sound>sound\snd_empty</sound>
+      <sound>sound\snd_finger</sound>
     </sounds>
     <sound>sound\snd_mainMenu</sound>
     <sound>sound\snd_playMusic</sound>
@@ -48,6 +49,7 @@
       <sprites name="flowers">
         <sprite>sprites\spr_flowers</sprite>
       </sprites>
+      <sprite>sprites\spr_puddle</sprite>
     </sprites>
     <sprites name="items">
       <sprite>sprites\spr_items</sprite>
@@ -102,11 +104,17 @@
       <object>objects\obj_spray</object>
     </objects>
     <objects name="GUI">
-      <object>objects\gui_lifePoints</object>
-      <object>objects\gui_sanitizer</object>
       <object>objects\obj_pointer</object>
-      <object>objects\obj_tree</object>
-      <object>objects\obj_flower</object>
+      <objects name="Indicators">
+        <object>objects\gui_lifePoints</object>
+        <object>objects\gui_sanitizer</object>
+        <object>objects\gui_time</object>
+      </objects>
+      <objects name="ambient">
+        <object>objects\obj_flower</object>
+        <object>objects\obj_tree</object>
+        <object>objects\obj_puddle</object>
+      </objects>
     </objects>
     <objects name="items">
       <object>objects\obj_sanitizer</object>
@@ -122,6 +130,9 @@
     <room>rooms\creditScreen</room>
     <rooms name="levels">
       <room>rooms\lvEnero</room>
+    </rooms>
+    <rooms name="victory">
+      <room>rooms\victoryScreen</room>
     </rooms>
   </rooms>
   <help>
