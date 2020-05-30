@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///spray control
 alarm_set(0, 15);
+audio_play_sound(snd_spray, 10, false);
 control.sanitizer -= 1;
 if (obj_pointer.Pointing == "R"){
         image_xscale = 1;

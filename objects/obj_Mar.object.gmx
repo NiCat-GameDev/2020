@@ -52,7 +52,7 @@ image_index = 2;
             <kind>1</kind>
             <string>///Moving to Screen
 audio_play_sound(snd_select, 10, false);
-room_goto(lvEnero);
+show_message("Programming this level");
 </string>
           </argument>
         </arguments>

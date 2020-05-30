@@ -8,6 +8,8 @@
     <sounds name="sfx">
       <sound>sound\snd_select</sound>
       <sound>sound\snd_click</sound>
+      <sound>sound\snd_spray</sound>
+      <sound>sound\snd_grab</sound>
     </sounds>
     <sound>sound\snd_mainMenu</sound>
     <sound>sound\snd_playMusic</sound>
