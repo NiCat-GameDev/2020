@@ -52,7 +52,8 @@ image_speed = 0;
             <kind>1</kind>
             <string>///Add some sanitizer
 audio_play_sound(snd_grab, 10, false);
-obj_player.lifePoints += 5;
+if (obj_player.lifePoints &lt;= 95){
+obj_player.lifePoints += 5;}
 instance_destroy()
 </string>
           </argument>
