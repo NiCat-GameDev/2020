@@ -187,7 +187,10 @@ depth = -y;
 if keyboard_check_pressed(vk_space){
     if (control.sanitizer &gt; 0){
          instance_create(obj_pointer.x, obj_pointer.y, obj_spray);
-    }}
+    }
+    else{
+         audio_play_sound(snd_empty, 10, false);
+        }}
 </string>
           </argument>
         </arguments>

@@ -10,6 +10,7 @@
       <sound>sound\snd_click</sound>
       <sound>sound\snd_spray</sound>
       <sound>sound\snd_grab</sound>
+      <sound>sound\snd_empty</sound>
     </sounds>
     <sound>sound\snd_mainMenu</sound>
     <sound>sound\snd_playMusic</sound>
@@ -102,6 +103,7 @@
     </objects>
     <objects name="GUI">
       <object>objects\gui_lifePoints</object>
+      <object>objects\gui_sanitizer</object>
       <object>objects\obj_pointer</object>
       <object>objects\obj_tree</object>
       <object>objects\obj_flower</object>
