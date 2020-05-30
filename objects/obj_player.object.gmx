@@ -214,7 +214,7 @@ if keyboard_check_pressed(vk_space){
           <argument>
             <kind>1</kind>
             <string>///Damage
-lifePoints -= 0.1;
+lifePoints -= 1;
 </string>
           </argument>
         </arguments>

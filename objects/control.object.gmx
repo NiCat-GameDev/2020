@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Global variables
+            <string>///Global variables and randomize
 //Variable Controls and other global shits
-
+randomize();
 month = 5; //This variable controls the month. (Now on May)
 
 character = 0; //for the character selection
