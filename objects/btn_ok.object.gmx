@@ -28,7 +28,7 @@
             <string>///room change control
 
 audio_play_sound(snd_select, 10, false);
-room_goto(lvEnero);
+room_goto(levelScreen);
 </string>
           </argument>
         </arguments>

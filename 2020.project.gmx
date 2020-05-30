@@ -12,6 +12,7 @@
       <sound>sound\snd_grab</sound>
       <sound>sound\snd_empty</sound>
       <sound>sound\snd_finger</sound>
+      <sound>sound\snd_win</sound>
     </sounds>
     <sound>sound\snd_mainMenu</sound>
     <sound>sound\snd_playMusic</sound>
@@ -58,8 +59,12 @@
   <backgrounds name="background">
     <background>background\bck_Credits</background>
     <background>background\bck_ground</background>
+    <background>background\bck_win</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\variables.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_splash</object>
     <object>objects\control</object>

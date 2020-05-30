@@ -28,17 +28,12 @@
             <string>///Global variables and randomize
 //Variable Controls and other global shits
 randomize();
-month = 5; //This variable controls the month. (Now on May)
-
 character = 0; //for the character selection
 
-time = 300; //This for the timer to win
+time = 150; //This for the timer to win
 
 //items and bullets
-
-sanitizer    = 0; //sanitizer its 10 bullets
-toiletPaper  = 0; //Just for points
-mask         = 0 //For protection (limited time)
+variables();
 </string>
           </argument>
         </arguments>
@@ -243,6 +238,30 @@ if (room == lvEnero){
         </arguments>
       </action>
     </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Restarting values
+variables();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
@@ -267,10 +286,13 @@ if (room == lvEnero){
 posX = 0;
 posY = 0;
 
+if (room == victoryScreen){
+    audio_play_sound(snd_win, 10, false);}
+
 //Code to create instances
 if (room == lvEnero){
         //Setting the time to win
-        control.time = 300;
+        control.time = 150;
         
         //initializing alarms
         alarm_set(0, 90); //For covid
