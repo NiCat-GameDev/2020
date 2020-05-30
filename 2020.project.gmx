@@ -110,6 +110,8 @@
     </objects>
     <objects name="items">
       <object>objects\obj_sanitizer</object>
+      <object>objects\obj_mask</object>
+      <object>objects\obj_paper</object>
     </objects>
   </objects>
   <rooms name="rooms">
