@@ -137,6 +137,7 @@ if keyboard_check(vk_down){
 if (lifePoints &lt;= 0){
     instance_destroy();
     show_message("You lose!");
+    room_goto(levelScreen);
 }
 </string>
           </argument>
