@@ -10,3 +10,11 @@ if (room == lvEnero){
         
         instance_create(posX, posY, obj_covid);
     }
+    
+if (room == lvFebrero){
+        alarm_set(0, 90);
+        posX = irandom_range(0, 1700);
+        posY = irandom_range(0, 1700);
+        
+        instance_create(posX, posY, obj_covid);
+    }

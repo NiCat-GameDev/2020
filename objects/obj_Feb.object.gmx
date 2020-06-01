@@ -53,7 +53,7 @@ image_index = 1;
             <string>///Moving to Screen
 
 audio_play_sound(snd_select, 10, false);
-show_message("Programming this level");
+room_goto(lvFebrero);
 </string>
           </argument>
         </arguments>

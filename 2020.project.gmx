@@ -139,6 +139,7 @@
     <room>rooms\creditScreen</room>
     <rooms name="levels">
       <room>rooms\lvEnero</room>
+      <room>rooms\lvFebrero</room>
     </rooms>
     <rooms name="victory">
       <room>rooms\victoryScreen</room>
