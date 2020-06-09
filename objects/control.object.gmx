@@ -188,7 +188,7 @@ if (room == lvEnero){
             <kind>1</kind>
             <string>///Objects creations control
 
-createCovid();
+scriptEne();
 </string>
           </argument>
         </arguments>
@@ -268,31 +268,21 @@ variables();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Objects creations control and initial alarms
-
-
-//variables to define positions
-posX = 0;
-posY = 0;
+            <string>///Initializing alarms
 
 if (room == victoryScreen){
     audio_play_sound(snd_win, 10, false);}
 
-//Code to create instances
+//Code to create initialize all the alarms
 if (room == lvEnero){
         //Setting the time to win
         control.time = 150;
         
         //initializing alarms
-        alarm_set(0, 90); //For covid
-        alarm_set(1, 180); //for sanitizer
-        alarm_set(2, 280); //for mask
-        alarm_set(3, 400); //for paper
-        
-        posX = irandom_range(0, 1700);
-        posY = irandom_range(0, 1700);
-        
-        instance_create(posX, posY, obj_covid);
+        alarm_set(0, 1); //For covid
+        alarm_set(1, 1); //for sanitizer
+        alarm_set(2, 1); //for mask
+        alarm_set(3, 1); //for paper
     }
 </string>
           </argument>

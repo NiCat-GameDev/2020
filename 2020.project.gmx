@@ -64,7 +64,9 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\variables.gml</script>
-    <script>scripts\createCovid.gml</script>
+    <scripts name="levelScript">
+      <script>scripts\scriptEne.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_splash</object>
