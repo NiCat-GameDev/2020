@@ -85,7 +85,7 @@ paperX = 0;
 paperY = 0;
 
 //Code to create instances
-if (room == lvEnero){
+if (room == lvEnero) || (room == lvFebrero){
         alarm_set(3, 400);
         paperX = irandom_range(0, 1700);
         paperY = irandom_range(0, 1700);
@@ -121,7 +121,7 @@ maskX = 0;
 maskY = 0;
 
 //Code to create instances
-if (room == lvEnero){
+if (room == lvEnero) || (room == lvFebrero){
         alarm_set(2, 280);
         maskX = irandom_range(0, 1700);
         maskY = irandom_range(0, 1700);
@@ -157,7 +157,7 @@ sanitizerX = 0;
 sanitizerY = 0;
 
 //Code to create instances
-if (room == lvEnero){
+if (room == lvEnero) || (room == lvFebrero){
         alarm_set(1, 180);
         sanitizerX = irandom_range(0, 1700);
         sanitizerY = irandom_range(0, 1700);
@@ -188,7 +188,7 @@ if (room == lvEnero){
             <kind>1</kind>
             <string>///Objects creations control
 
-scriptEne();
+scriptCreation();
 </string>
           </argument>
         </arguments>
@@ -274,7 +274,7 @@ if (room == victoryScreen){
     audio_play_sound(snd_win, 10, false);}
 
 //Code to create initialize all the alarms
-if (room == lvEnero){
+if (room == lvEnero) || (room == lvFebrero){
         //Setting the time to win
         control.time = 150;
         

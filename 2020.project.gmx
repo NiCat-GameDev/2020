@@ -65,7 +65,7 @@
   <scripts name="scripts">
     <script>scripts\variables.gml</script>
     <scripts name="levelScript">
-      <script>scripts\scriptEne.gml</script>
+      <script>scripts\scriptCreation.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -106,6 +106,9 @@
     </objects>
     <objects name="enemy">
       <object>objects\obj_covid</object>
+      <objects name="infected Persons">
+        <object>objects\obj_infectedP</object>
+      </objects>
     </objects>
     <objects name="player">
       <object>objects\obj_player</object>
