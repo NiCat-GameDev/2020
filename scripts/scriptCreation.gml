@@ -19,3 +19,12 @@ if (room == lvFebrero){
         instance_create(posX, posY, obj_covid);
         instance_create(posX, posY, obj_infectedP);
     }
+    
+if (room == lvMarzo){
+        alarm_set(0, 360);
+        posX = irandom_range(0, 1700);
+        posY = irandom_range(0, 1700);
+        
+        instance_create(posX, posY, obj_covid);
+        instance_create(posX, posY, obj_infectedP);
+    }
