@@ -38,6 +38,10 @@
     </sprites>
     <sprites name="enemy">
       <sprite>sprites\spr_covid</sprite>
+      <sprites name="WW3 enemy">
+        <sprite>sprites\sprPlane</sprite>
+        <sprite>sprites\spr_bullet</sprite>
+      </sprites>
     </sprites>
     <sprites name="players">
       <sprite>sprites\spr_players</sprite>
@@ -109,6 +113,8 @@
       <objects name="infected Persons">
         <object>objects\obj_infectedP</object>
       </objects>
+      <object>objects\obj_Plane</object>
+      <object>objects\obj_Bullet</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player</object>
